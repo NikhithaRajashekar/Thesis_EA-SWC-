@@ -38,6 +38,7 @@ elements1<- elements1[-1,]
 elements2<- elements2[-1,]
 ```
 
+
 ##compute word frequency table
 
 ```{r}
