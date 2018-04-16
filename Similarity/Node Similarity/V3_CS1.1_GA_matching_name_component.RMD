@@ -5,7 +5,7 @@ date: "17 December 2017"
 output: html_document
 
 ---
-## R Markdown
+## Component name similarity
 Finding similarity between names of a components between version 1 and version3. In version 3, few components added and removed and changes made from v1. This case study helps to find how similar the names of a components are similar in different models.
 Cosine similarity is used to check the difference between the names
 
