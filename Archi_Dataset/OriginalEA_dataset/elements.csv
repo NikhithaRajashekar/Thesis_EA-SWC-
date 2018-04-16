@@ -1,0 +1,175 @@
+ID,Type,Name,Documentation
+81e1c629-cd59-447b-a70f-64ac9c075d50,ArchimateModel,example_airport_nikitha,
+9da5acbb-69bd-40f7-9c9d-aa5776b9b404,BusinessActor,Airline employees,"Employees who works for specific airlines and provide administative support like verifying travel document, passport and issuing boarding pass
+"
+b01e1ec1-f6a4-4c77-b661-bbfa5dd8c3ad,BusinessActor,Car driver,One who drives car or taxi
+0a20296f-2185-466e-b10e-b79b2185e551,BusinessActor,Custom officials,The govenerment officer who enforces customs laws.
+60abd6d0-2e1b-459b-a2d0-71d8816c5441,BusinessActor,Military forces,
+03952849-5028-4fb0-94b8-56735d6c162e,BusinessActor,Officials,Officials employyed by airport verifies passport and other documents. They also questions passengers about the purpose of travel. 
+091e243b-335d-4a0c-8df3-afe6f0b97f6b,BusinessActor,Passengers,Passengers are the one who travells.
+c75cc874-3f25-4570-a39f-383d1562b2a8,BusinessActor,Security guards, Security guards emplyeed by airport checks passengers security.
+19198814-b237-4fd7-a94b-a1b725cae4d3,BusinessActor,Visitors,"Visitors can be friends, family or tourists"
+bd398a28-fc97-44b4-be7f-38672267e09b,BusinessEvent,Proceed to boarding,
+a28eda99-7227-4f3e-b410-cb79cd89cc04,BusinessEvent,proceed to checkin,
+e8850cca-11c6-4424-a307-da30f7c2b78c,BusinessEvent,Proceed to Immigration,
+2a080cda-4499-4639-8803-a952f069e1f2,BusinessEvent,Proceed to International waiting hall,
+d78f6570-d98b-49e9-9391-7a0cb0f70850,BusinessFunction,Baggage Drop-off,Passengers hands over baggage whic is checked by the airport security.
+93cab899-ae4c-465e-a64c-add8bc31cd56,BusinessFunction,Baggage handelling,Passengers can drop their baggage at checkin counters and pay extra fees for excess baggage. Passengers receives tags to put foor cabin bags
+42c1b255-5b8d-4bac-866b-3bac57509eb1,BusinessFunction,Boarding to airplane,"After waiting in loungue, passengers moves to respective boarding gates. Airline employees check for the individual boarding pass. Passengers may then take bus to board flights.  "
+95c47293-47f6-4b4f-bac1-4f1edd6ac797,BusinessFunction,Check for explosives,
+713853e6-4f80-408f-aa4c-e175cbd6f565,BusinessFunction,checkin service by emplyees,"Airline employees checks passport and flight ticket and issues boarding pass and also they provide services like change of reservations, meals, seat selection etc. "
+a5c04de4-d5e7-414c-b8ca-fb081e9be6cd,BusinessFunction,Checking boarding pass,
+e6310927-9693-4bf0-bcad-00ea2216bfba,BusinessFunction,controlling flow of electronic goods,
+c89412ac-1b33-4a49-a2f5-c0bb82d4dd9b,BusinessFunction,controlling flow of food items,
+79aa60af-acd0-4959-b8cd-92bdc9c194b4,BusinessFunction,Customs,Passengers goes through customs where cusom officials/ military forces are responsible in controlling flow of electronic goods and food items to another country.
+ef36b0dd-13d4-4b70-8c47-540ca851c952,BusinessFunction,Document verification,Officials check for passenger passport and does verification and crosscheck of documents. Passengers undergo Biometric verification. Officials may ask some question regarding purpose of travel to the passengers.
+04ef46a4-4091-45c9-bbfb-dda5e1219213,BusinessFunction,Excess baggage charges,"If the baggage exceeds weight limit, passengers are asked to pay surcharges. "
+3a902fea-4806-40c4-868d-09ebd4036116,BusinessFunction,Farewell,Friends/ family people says good bye to passengers.
+0e71ca58-be9c-4b91-bfab-467b72f0e23b,BusinessFunction,Flight departure,Flight departs the airport.
+59b3ef38-5d74-410d-8ba9-3272d4f6a466,BusinessFunction,Issuing boarding pass,Airline employees prints boarding pass to the passengers. 
+125af579-f264-4414-8594-d00cba7c2520,BusinessFunction,Manual scanning,
+9908a940-0345-45f1-8ed5-d716a564e77b,BusinessFunction,onspot ticket purchase,Facility to book the tickets at the airport. 
+09674060-5ec3-4d75-9ab3-9a4e48ca8779,BusinessFunction,oversized baggage,
+df4e8f8b-ee50-4028-a756-cfe4f8c8ad3c,BusinessFunction,Parking ,Parking service for the vehicles arriving to airport
+be76db91-2946-4ad7-867a-b980c34675fa,BusinessFunction,Passengers security screening,"Passengers undego different security screenings like manual scanning, technical scanning , personal body search and sometimes deeper check for carrying explosives."
+4f3fc88c-343f-4745-8a39-1c9e5ea6e46f,BusinessFunction,Passport check,
+b9af7769-a99b-4602-87ac-237a2525bc4d,BusinessFunction,Passport verification,Airline employees checks for the passport and flight ticket of the passengers.
+324226b3-ebd0-4baf-9cff-09c9ce88da2b,BusinessFunction,Personal body search,
+5dc8070e-bea8-4378-a040-be99707928e1,BusinessFunction,Print baggage tags,
+d4cf53bd-ba7c-411a-8f56-d9442053ee68,BusinessFunction,Provide Paasengers service,"Airline employees provide some services like seat selection, change of reservation, meal selection etc."
+1ed37a3f-ac56-455e-86cb-bb11c6080275,BusinessFunction,Purpose of travel,
+0c00c750-9839-4694-b202-888af1257302,BusinessFunction,Security check,General passenger screening where passengers are walk through metal detectors 
+e07844ac-50d1-4365-b640-005fb6aa30c2,BusinessFunction,Technical scanning,
+2a767095-d99e-4963-b667-775babf9a4c6,BusinessFunction,Transportation,
+be1fc35b-3ca1-447b-a275-cf238e52437f,BusinessFunction,Travel document ,
+f250ec23-4680-498c-967e-84501731dea4,BusinessObject,Baggage tags,Tags given to checked bags/cabin bags as a proof
+112dd82b-bd19-49ec-b0ad-ea679204233a,BusinessObject,Boarding Pass,A pass for boarding an Aircraft.
+948ab42b-6867-4e4a-bb46-3aedd5000987,BusinessObject,checked bags fee,Extra charge to be paid for excess baggage.
+1acb752a-35e0-4cc2-8d1c-9da82484f514,BusinessObject,Custom declaration form,Custom declaration is a form that is filled when visitos/goods/citizens entering the Nation's border.
+6b71b7f4-2346-42cc-b4c1-ffb4af2dacbc,BusinessObject,Parking ticket,Ticket issued for the parking vehicles at airport.
+a45556a8-5708-4260-bc57-464a31383368,BusinessObject,Passenger identity,
+4bb80210-7aa4-4312-b772-444fe296a204,BusinessObject,Ticket,Flight ticket 
+2944ae27-bdcb-4164-9886-a7159cecb753,BusinessProcess,Arriving at airport,"After arriving to the airport ,passengers may buy flight ticket. Friends and relatives give farewell to the passengers and passengers goes through security check and enters checkin counters."
+1d805715-0b91-4310-8c98-050660429ca5,BusinessProcess,Boarding  and departure,Airline employees check for the boarding pass and Passengers undergo security check and drives to aircraft inorder to board flight. 
+333468c1-bbb2-415e-ae74-d6ebac21457a,BusinessProcess,boarding to bus,Passengers boards terminal tranfer bus to go to the aircraft.
+c60ccbc8-e2b4-408d-b8f2-0376928afc81,BusinessProcess,checkin,"Checkin process includes passport verification,issuing boarding pass to the passengers and droping baggage. "
+07430e67-05a9-49a6-abb3-c9e6e1d5c757,BusinessProcess,checking gate number,Waiting area of an airport where passengers wait befoe boarding.
+af79c5b0-b67c-4d29-a6b2-63be8c72ef55,BusinessProcess,Driving to aircraft,passing to aircraft
+c92b7e65-f704-42c4-9e85-c1d2fa75e13d,BusinessProcess,Immigration,"Aftet checkin, passengers moves to immigration process where they undergo security screening, customs and individual identification and document verification
+"
+b9fbd9c1-15fc-429a-af50-a49906a8a564,BusinessProcess,Travel to the airport,"Passengers and visitors travells to the airport. Possible mode of transport will be car, bus, train, taxi."
+48661508-77b5-481f-a002-a538d3e80053,BusinessProcess,Waiting in lougue,Passengers wait in the International waiting halls before boarding the flight.
+6e9d21d5-951e-4964-bec1-611a5db35ab7,BusinessRole,Check baggage weight,
+c30b5247-4ce9-45ba-ae25-e97f99272faa,BusinessRole,Checking flow of goods,
+6c018102-6211-466b-9298-e8739b3205d3,BusinessRole,Inspection,
+e662113c-8a98-4921-97c1-03cff9d4a353,BusinessRole,Review documents,
+671516d6-e8cc-4012-9dd9-d77b0119262a,BusinessRole,Trvelling to airport,
+864a09ba-5a0b-4858-abc3-8ad4ce290629,BusinessRole,Veryfying and assigns boarding pass,
+36eb0015-67cb-4886-a426-2e11a7479ee5,BusinessService,Airport parking space,Parking area in the Airport designed for parking vehicles
+ea9e267a-675a-417d-ab45-897dd7b7b3ec,BusinessService,Beverages,
+c5a20476-4e5d-41ed-b502-94d5e7f8b81a,BusinessService,Bus,
+b7f7409a-5403-4ffc-813d-cf7d690061f2,BusinessService,Car,
+7aa1aba2-8e10-48aa-90aa-63e267f335c5,BusinessService,Change of reservations,
+38825eb1-bf63-4eac-b3d2-9528c521d4aa,BusinessService,Cigar room,A room specifically provided for smoking
+afb286a2-f057-449f-99b1-81d348aa47bd,BusinessService,Duty free shops,Duty free shops are retail outllets that are exempt from the payment of certain taxes.
+3ae875a8-df0f-4db3-8857-488ae85b62a7,BusinessService,Entertainment,
+601c008c-87f3-4be5-a7d9-4f9aabcd4694,BusinessService,Food,
+072be3f4-606f-41f5-b396-bd3d92f6a0c5,BusinessService,Free internet access,"Free wifi access that connects phones, laptops. "
+49ad48d2-baf1-43c5-b4d8-d164e7eba92f,BusinessService,Group checkin,Checkin process for the group of passengers
+e8b7742b-766d-4d07-935d-7794bd3a3d9f,BusinessService,Individual checkin,Checkin process for individual passenger.
+3657a678-3da3-4d84-a47d-0b367b1c0464,BusinessService,Magazines,
+61bbbaa2-9deb-4cea-a8a9-7053d5e26d3c,BusinessService,Means of transport,"Possible means of transport to airport can be by car, bur or Train."
+dfffa6d1-6492-4468-a9fa-dfe12a7bd84e,BusinessService,Mobile checkin,
+2244f3b2-942e-4a04-97e3-03976c073f97,BusinessService,Music,
+fdda0889-b334-427d-ae9a-2f7009c9782d,BusinessService,Restaurants,Serves food and drinks to passengers in exchange for money.
+2edae2de-44bb-4f3b-b7ec-d88f4fb3022f,BusinessService,self service kiosks,"Provide facilities for the passengers to checkin by entering flight boking details. It also offers facilities to drop the baggage , change in reservation of flight , seat selection etc."
+19e27e28-565c-4645-ae9f-0d8279ee2ae6,BusinessService,Services at loungue,"Passengers are provided with different services at airside before boarding. Services includes, duty free shops, free internet access, Restaurants, veldingmachines, TV, Music, Magazines etc."
+87daa389-716d-4234-96cc-70d9e0ac7b49,BusinessService,Showers,
+6d038d69-6204-4e4c-b32e-78874668068b,BusinessService,Train,
+a65fb867-8e8d-4e1d-aeef-aade54ea12d3,BusinessService,TV,
+b3541209-4f2d-4fd1-8775-d933d7f219ce,BusinessService,Vending machines,"Electronic machines thar serves food, drinks, coffee etc."
+2a316633-8caa-4694-b58b-94d763db2eaa,BusinessService,Window seating,
+3570314d-b293-4b22-a9c9-53d03c5ea7c4,ApplicationCollaboration,Boarding and departure control system,
+a873d286-4762-4261-bbed-7bd5e579e84e,ApplicationComponent,Airline administration support,Responsible in handelling check-in process and boarding process. 
+1d37866b-6ea6-4165-a70d-1d8d78bfaae5,ApplicationComponent,Airside services to passengers,
+cf95c2df-28dd-4a2c-91a5-1196d14d7ff2,ApplicationComponent,Billing and payment,
+3794b24d-7bac-4411-9eec-88064556abb5,ApplicationComponent,Boarding control,
+1b638718-6afa-4927-9014-3958fd9895e6,ApplicationComponent,by cash,Payment made my exchanging cash.
+c2dcd913-742a-4bb3-a523-3182165e7f24,ApplicationComponent,card payment,
+ef5a8360-ba18-4873-b294-21aaa51d8eb3,ApplicationComponent,Immigration system,
+a63f0df7-056b-4cc4-a820-862f3c9111b5,ApplicationComponent,Payment system in loungue,
+423c589b-3cbe-4d81-ac4d-94173cfe18e7,ApplicationComponent,PAYpAL,Supports online payment system.
+76d9666f-28be-45db-8c53-c02c7c2c9fd8,ApplicationComponent,Personal verification system,
+b8675fa6-8d66-4d54-b959-f5fd16d7284f,ApplicationComponent,Regional public trasnsport system,
+fb371b83-fe05-44cc-a492-0aaddd422d88,ApplicationComponent,Security  and customs,
+de3e4ce5-7eef-4ea8-970a-606283dcac17,ApplicationInterface,Payment interface,
+3d52a53a-98ab-45a7-80f1-646cb5059fb8,ApplicationService,Baggage weighing,
+a30d5839-1a47-4463-ba09-16f00e95caa1,ApplicationService,Biometric verification,
+098e5212-6d08-4ab6-9272-15cf4dc5ee54,ApplicationService,flight ticket Payment,Payment made for booking flight ticket.
+92318f65-98f9-4b97-8388-d89dc1323e35,ApplicationService,Identifying boarding pass,
+d7cf9f22-029a-4d85-bfaf-218e2ff13cf5,ApplicationService,Navigation control,The electronic system that aids navigation .
+8b6539f0-07c1-4118-b82e-f528e28849f7,ApplicationService,Parking fees payment,
+fa3d4cf2-26a9-4ff4-8cbb-3cce74991680,ApplicationService,Personal verification,
+cd624abf-9d9e-49fb-8373-1493dc866590,ApplicationService,printing,
+58a6a087-cf9c-4f0b-a491-33f94a40adcf,ApplicationService,Scanning hand bags,
+e9ae01a1-3b9d-4e27-9a85-6f3d4b7bc18f,ApplicationService,Scanning passengers,
+4ff9c458-9162-4197-a81a-ce1a32d45e0d,ApplicationService,Security,
+9d59afd8-0269-433a-b118-8b7bd7cca147,DataObject,Account Data,Bank account data
+382fc170-071c-424b-9934-12465f39ce7b,DataObject,Invoice,Bill issued by ticket seller to passenger who buys the flight ticket at airport
+e5a4fec8-73c7-4cf7-820a-69b757fbfb1e,DataObject,Passenger  details,
+18e806fa-8e6c-4fbc-af22-1ac502f9dfb6,DataObject,Passenger boarding pass details,
+b5286752-b0d8-48dc-9b97-73aabfd06b29,DataObject,Receipt of payment,Bill for the proof of parking payment
+b41b0adf-2d33-4739-ab3a-9d15229d1af4,Artifact,Bill,
+5d2b5aa1-808c-4702-958c-3167a4c6a899,Artifact,credit card bill,
+8a07d9f8-fc05-4b92-8c3e-4136fec532b7,CommunicationNetwork,card network,
+2f338730-71a3-476a-a4c3-5b813fb279b2,CommunicationNetwork,Communication Network airside,
+a8a94fb7-a293-44f2-83b4-b05165bfd9c0,CommunicationNetwork,Communication network landside,
+d96a477c-d6e0-40f4-be6e-43bde1a69cac,CommunicationNetwork,Internet,
+f7fd3e5c-d61d-41be-8faa-696eb48269da,Device,Bar code reader,
+1541b639-3196-4fdc-a020-09b661c4369b,Device,CCTV monitor,
+a9170b35-5bcf-4648-a2cc-0e45eaa53c2d,Device,Check-in counter monitor,
+82198252-9e6a-4aa7-8a01-2d42f12a63ab,Device,Face recognition device,
+5ddc8ef3-4751-48e9-a799-6676674ad1a3,Device,Fingerprint recognition device,
+8791d0ae-1ec2-44f7-a63a-d186a6136f79,Device,Full body scanners,Full body scanner is a device which detects objects on a person's body for security screening purposes.
+39231ccd-002f-4004-b9be-3fb162917e13,Device,GPS receiver,
+79b44213-227e-4536-bd07-82201a565316,Device,GPS satellites,
+34a9ff73-5ad2-47b3-86e4-45625331b5dd,Device,Metal detector,Used to detect the presence of metal nearby.
+08680c4b-f2e3-4dab-965a-a765e26ec7da,Device,Modem,
+80faa351-8846-4ca9-ac70-af062cb6505c,Device,Monitor,
+5f793018-d0b8-4077-ac58-ea24a1cbdec3,Device,Passport reader,
+e0883711-c3cc-4dc5-adba-1a1551b6103c,Device,payment gateway,
+f7ad88df-2267-4281-aa34-f330748aff8b,Device,Paypal device,
+79c2cfe0-e273-497d-a0db-6b80279046aa,Device,printer,
+01cefd1b-7aa4-4d15-ac6e-665138639842,Device,Security cameras,
+78db0854-6e9b-47ca-bc02-a1e03f6477af,Device,Ticket printer,
+d07ee865-968e-45a7-8287-3db348256fed,Device,Wireless routers,
+30ad36f3-4868-4dc0-b44e-a77cc4846b33,Device,xray scanner,
+26c0a1da-80b2-488b-942f-825ffc5b2f20,Equipment,credit card processor,
+37209d9b-f984-4bba-af93-35b477b33348,Node,Airport Surveillance,
+b5fd5514-eadb-4aee-af93-fae43f1e82fa,Node,Barcode system,Scans bar code on boarding pass
+b510b01c-19ff-407a-adf4-2585501f52f8,Node,Biometric technology devices,
+3f9a9ee8-ae24-4919-852e-6111ce45e8af,Node,Checkin system components,
+0a8de0a7-c072-460e-8644-30bdf3671177,Node,checkin system server,
+16e9c45f-442b-470a-8622-7e97b1858e8e,Node,Free wifi access,
+ceb22645-b8bf-4480-a971-3f9bd81689d9,Node,GPS naviagtion system,GPS navigation technique that offers direction.
+dc05edc1-97c1-4439-bdbf-2a71d02ecca3,Node,Paypal reader,
+afc33e3c-8ff6-4752-a6ad-fe5e812f2693,Node,Scanning Devices,
+e25cad2f-6416-4526-8632-555225528969,Node,Wireless credit card terminal,
+dd5fdaa1-3a91-42f3-a6a6-804517daa4ad,SystemSoftware,Application server,
+c8be6a82-d265-4c5a-8662-1f6296a8db59,SystemSoftware,card issuing bank details,
+874a83ab-67ac-4829-8498-4ad95f0eca82,SystemSoftware,DBMS,
+ffc0b26b-b3ec-44fa-b9e0-52c051d26544,SystemSoftware,LINUX,
+16682665-0f82-4b5b-94c1-968ff361f407,SystemSoftware,Map database,
+533ee4f3-aa4b-4b93-b586-88ddbb7b3b0c,SystemSoftware,Passenger database,
+5d2f63a1-ed25-417a-ba58-f88f70b75313,SystemSoftware,paypal database,
+c9fdfb11-4206-432c-ac7c-db860114395b,SystemSoftware,Recorder/controller,
+73404df2-3837-4305-bc26-98f8f30c136c,TechnologyFunction,managing data,
+b2403493-748b-4a46-92c7-1cc61d6fa05c,TechnologyService,Digital print,
+629196a5-59ec-45f9-99fd-7288b4f12462,TechnologyService,Digital weighing ,
+57de6aaf-2b36-4616-a32c-064a64561cd7,TechnologyService,GPS facility ,Offers navigation system connected to bus.
+6ba187e6-f203-4524-8172-0b4655792a8b,TechnologyService,Internet service,
+1ab46581-45db-4c95-875b-65d7870252b4,TechnologyService,Passenger data management,
+64dd7452-5906-4071-9720-9b689869ffe9,TechnologyService,Passenger identification,
+2f463dba-0102-4f2d-ba78-e27328ef6ba0,TechnologyService,Payment terminal,
+803f8b43-a85b-4ee6-948a-d721106d7e4d,TechnologyService,Reads Boarding pass bar code,
+2e89f9ea-f951-4056-865c-cad19e39e54e,Junction,Junction,
